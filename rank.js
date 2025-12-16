@@ -1,9 +1,9 @@
 
-let vitorias = 10;
+let vitorias = 20;
 let derrotas = 1;
 let saldo = vitorias - derrotas;
 
-if (saldo < 10) {nivel = "Ferro";}
-else if (saldo >= 10 && xp <= 20) {nivel = "Bronze";}
+if (saldo < 10) {saldo = "Ferro";}
+else if (saldo >= 10 && saldo <= 20) {saldo = "Bronze";}
 
-console.log(saldo);
+console.log(`o nivel é ${saldo}. `);
